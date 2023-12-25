@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+
+
+:root{
+    --primary:#263773;
+    --secondary:#EE8B5D;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+
+
+/* nav bar */
+nav  {
+    background-color: white; 
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    transition: top 0.5s ease;
+
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav.sticky,
+nav:not(.sticky) {
+    transition: top 0.5s ease;
+}
+
+nav:not(.sticky) {
+    top: -100px;
+}
+
+nav .logo{
+    height: 95px;
+}
+nav ul{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px;
+    /* justify-content: space-around; */
+
+}
+nav ul li{
+    margin-right: 50px;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+nav .btn-div .btn{
+    height: 35px;
+    /* width: 80px; */
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    border-radius: 10px;
+    /* padding-bottom: 20px; */
+    margin-right: 2px;
+}
+nav .btn-div .btn2{
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* banner */
+
+
+
+.banner h1{
+    margin-top: 80px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.banner h3{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.banner img{
+    height: 520px;
+}
+
+
+/* head */
+.head{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.head .another-div{
+    width: 70%;
+    align-items: center;
+    text-align: center;
+
+}
+.head h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 90px;
+}
+
+
+/* about */
+.about{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.about h1{
+    margin-top: 70px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.about h6{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15.25px;
+}
+
+.about img{
+    height: 370px;
+}
+
+.about .ways .row div:first-child i{
+    font-size: 35px;
+    padding: 15px 15px 15px 20px;
+}
+/* .about .ways .row div:first-child i{
+    font-size: 35px;
+    padding: 15px 15px 15px 20px;
+} */
+.about .ways .row div:nth-child(2) h4{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.about .ways .row div:nth-child(2) p{
+    font-size: 16px;
+    /* margin-top: 15px; */
+}
+
+
+
+/* services */
+
+.services{
+    margin-top: 100px;
+    
+}
+.services h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.services h1 span{
+    color: var(--secondary);
+    font-size: 52px;
+}
+.services img{
+    height: 350px;
+    margin-top: -20px;
+}
+.services .life-skills{
+    height: auto;
+    width: 375px;
+    margin-top: 50px;
+}
+
+
+
+
+/* apps */
+.apps{
+    margin-top: 120px;
+    align-items: center;
+}
+.apps .main img{
+    height: 320px;
+}
+.apps h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.apps h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.apps .stores img{
+    height: 50px;
+}
+
+
+.features{
+
+}
+.features .img-main img{
+    height: 420px;
+}
+.features h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.features h2{
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.features .methods img{
+    height: 60px;
+}
+.features .methods h3{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+/* footer */
+
+.footer h2{
+    font-weight: 900;
+    font-size: 20px;
+}
+.footer img{
+    height: 70px;
+    margin-bottom: 30px;
+}
+.footer p{
+    font-size: 16px;
+}
+
+footer ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+footer h2{
+    margin-top: 20px;
+}
+footer ul li a{
+    color: #818181;
+}
+
+
